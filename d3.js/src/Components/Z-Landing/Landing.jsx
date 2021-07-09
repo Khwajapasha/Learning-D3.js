@@ -1,9 +1,10 @@
 import React from "react";
+import { Selections } from "../D3.jsx/Selections";
 
 export const Landing = () => {
   return (
     <div>
-      <h1>This is landing page</h1>
+      <Selections />
     </div>
   );
 };
